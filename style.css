@@ -774,3 +774,8 @@ footer span a:hover{
   text-decoration: none;
   color: inherit;
 }
+@media(min-width:1000px){
+.linebreak{
+    display:none;
+    }
+}
