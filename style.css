@@ -782,6 +782,18 @@ footer span a:hover{
 
 
 
+/* download */
+.apple{
+  font-size: 15px;
+  background-color: black;
+  display: inline-flex;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Montserrat;
+  margin: 15px;
+
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .apple i{
