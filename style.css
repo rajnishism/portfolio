@@ -779,3 +779,64 @@ footer span a:hover{
     display:none;
     }
 }
+
+
+/* download */
+.apple{
+  font-size: 15px;
+  background-color: black;
+  display: inline-flex;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Montserrat;
+  margin: 15px;
+
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.apple i{
+  font-size: 50px;
+  margin-right: 20px;
+}
+.big-txt{
+  font-size: 25px;
+  font-weight: 500;
+}
+.download_div{
+  padding: 50px;
+  display: flex;
+
+  font-family: Montserrat;
+  justify-content: space-around;
+
+}
+
+
+.download_div img
+{
+  height: 500px;
+
+}
+.download_text{
+  align-self:  center;
+}
+
+.download_text h1{
+  margin-bottom: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+
+}
+@media (max-width:1000px) {
+  .download_div{
+    flex-direction: column;
+  }
+  .download_img{
+    margin-left: auto;
+  margin-right: auto;
+  }
+  .download_text{
+    text-align: center;
+  }
+}
