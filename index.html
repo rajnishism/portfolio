@@ -17,7 +17,15 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
-<body>
+<body onload=preloader()>
+	
+	<div id="preload" style="width:100vw; height:100vh; display: flex; flex-direction:column ; background-color: #F1F2F3; justify-content: center;" >
+    <div class="">
+      <img src="images/rajnishism.png" width="175px" style="margin: auto; border-radius: 45px; display:block; margin: 0 auto;">
+      <img src="images/loadingicon.gif" width="100px" style="display:block; margin:0 auto;">
+    </div>
+  </div>
+
     <div class="scroll-up-btn" data-aos="fade-out">
         <i class="fas fa-angle-up"></i>
     </div>
@@ -380,6 +388,12 @@
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script type="text/javascript">
+    function preloader(){
+      var load= document.getElementById("preload");
+      load.style.display="none";
+    }
+  </script>
 <script>
   AOS.init();
 </script>
