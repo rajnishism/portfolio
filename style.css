@@ -269,11 +269,19 @@ section .title::after{
 .teams .title::before{
     background: #fff;
 }
+
+.services .title .two ::after,
+.teams .title  .two ::after{
+    background: #111;
+    content: "what i done ";
+}
+
 .services .title::after,
 .teams .title::after{
     background: #111;
     content: "what i love";
 }
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -418,6 +426,7 @@ section .title::after{
     border-radius: 50%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
+    background-color: #fff;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
